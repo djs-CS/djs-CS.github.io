@@ -7,100 +7,97 @@
     <title>Dylan Sumser First Website & CV 2021</title>
     <link rel="stylesheet" href="./resources/css/styles.css" type="text/css">
     <link rel="preconnect" href="https://fonts.gstatic.com"> 
-    <link rel="preconnect" href="https://fonts.gstatic.com"> 
-    <link rel="preconnect" href="https://fonts.gstatic.com"> 
-<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
 </head>
     <body>
         <header>
-            <nav>
-                <div class = "container">
-                    <div class = "languages">
-                        <div class = "english">
-                            <div>EN</div>
-                            <img src="./resources/images/Flag_of_Great_Britain.png" alt="">
-                        </div>
-                        <div class= "german">
-                            <div>DE</div>
-                            <img src="./resources/images/Flag_of_Germany.svg.png" alt="">
-                        </div>
-                        <div class = "portuguese">
-                            <div>PT</div>
-                            <img src="./resources/images/Flag_of_Brazil.svg.png" alt="">
-                        </div>
-                    </div>
+            <nav class = "languages">
+                <div class = "english">
+                    <div>EN</div>
+                    <img src="./resources/images/Flag_of_Great_Britain.png" alt="">
                 </div>
-                <div class = "backgroundWrapper">
-                    <div class = "container">
-                        <div class = "otherPages">
-                            <div>CV</div>
-                            <div><a href = "currentProjects.html" target="_blank" >Current Projects</a></div>
-                            <div>Personal Stuff</div>
-                        </div>
-                    </div>
+                <div class= "german">
+                    <div>DE</div>
+                    <img src="./resources/images/Flag_of_Germany.svg.png" alt="">
+                </div>
+                <div class = "portuguese">
+                    <div>PT</div>
+                    <img src="./resources/images/Flag_of_Brazil.svg.png" alt="">
                 </div>
             </nav>
+            <nav class = "pages backgroundWrap">
+                <div>CV</div>
+                <div>About</div>
+                <div>Now</div>
+                <div>Blog</div>
+            </nav>
         </header>
-        <main class = "container">
-            <div class = "wrap">
-                <h1>Dylan's CV</h1>
-                <div class = "CV">
-                    <div class="CVmain">
-                        <H2>Education</H2>
-                        <p class = time>Since October 2017, Expected Graduation August 2021</p>
-                        <h3>B.Sc. in Business Administration, Ludwig Maximilian University of Munich, Germany</h3>
-                        <ul>
-                            <li>Course specialisation in Technology & Innovaiton, and Digital Business</li>
-                            <li>Included in Dean’s List for 2019</li>
-                            <li>Current GPA of 3.1</li>
-                        </ul>
-                        <p class = time> August 2019 - March 2020</p>
-                        <h3>Exchange Student, University of São Paulo, Brazil</h3>
-                        <ul>
-                            <li>Took courses focusing business environment in Brazil</li>
-                            <li>Developed and applied foreign language skills at a C1 level</li>
-                        </ul>
-                        <p class = time>Since March 2020</p>
-                        <h3>Self-driven Learning, Codecademy</h3>
-                        <ul>
-                            <li>Completed the Computer Science course and projects using Python</li>
-                            <li>Currently taking courses in Front-End Web Development</li>
-                        </ul>
-                        <H2>Work Experience</H2>
-                        <p class = time>Since April 2020</p>
-                        <h3>Intern & Undergraduate Working Student, Teclead, Berlin, Germany</h3>
-                        <p class = summary>Mid-sized software and consulting firm focused on E-Commerce, Enterprice CMS, IOT and SaaS related projects.</p>
-                        <ul>
-                            <li>Increased a pet food startup's revenue from  e-mail marketing by planing and implementing a personalisation-focused overhaul of CRM processes</li>
-                            <li>Improved collaboration and transparency across functions by writing user stories, and creating product roadmpas for smaller projects and epics</li>
-                            <li>Backlog refinement and leading of of sprint planning, review and retrospective meetings for smaller projects and epics</li>
-                        </ul>
-                        <p class = time>January - July 2019, April – June 2020</p>
-                        <h3>Undergraduate Working Student, Institute for Innovation Management, Ludwig Maximilian University of Munich, Germany</h3>
-                        <p class = summary>Research and Teaching Institute at one of Germany's top Universities and business schools.</p>
-                        <ul>
-                            <li>Key supportive role in the redisign and translation of the undergraduate class on business planning</li>
-                            <li>Additional support with research and adminstrative tasks</li>
-                        </ul>
-                    </div>
-                    <div class = "CVside">
-                        <H2>Skills</H2>
-                        <h3>Programming</h3>
-                        <p>Python, HTML, CSS</p>
-                        <h3>Software</h3>
-                        <p>Shopify, Drip, GitHub, Figma, Miro, Notion</p>
-                        <h3>Methodologies</h3>
-                        <p>Scrum, Agile</p>
-                    </div>
+        <main>
+            <h1>Dylan's CV</h1>
+            <section class ="education"></section>
+                <H2>Education</H2>
+                <div class = "cvItem">
+                    <p class = "time">Since October 2017, Expected Graduation August 2021</p>
+                    <h3>B.Sc. in Business Administration, Ludwig Maximilian University of Munich, Germany</h3>
+                    <ul>
+                        <li>Course specialisation in Technology & Innovaiton, and Digital Business</li>
+                        <li>Included in Dean’s List for 2019</li>
+                        <li>Current GPA of 3.1</li>
+                    </ul>
                 </div>
-            </div>
+                <div class ="cvItem">
+                    <p class = "time"> August 2019 - March 2020</p>
+                    <h3>Exchange Student, University of São Paulo, Brazil</h3>
+                    <ul>
+                        <li>Took courses focusing business environment in Brazil</li>
+                        <li>Developed and applied foreign language skills at a C1 level</li>
+                    </ul>
+                </div>
+                <div class ="cvItem">
+                    <p class = "time">Since March 2020</p>
+                    <h3>Self-driven Learning, Codecademy</h3>
+                    <ul>
+                        <li>Completed the Computer Science course and projects using Python</li>
+                        <li>Currently taking courses in Front-End Web Development</li>
+                    </ul>
+                </div>
+            </section>
+            <section class ="workExperience">
+                <H2>Work Experience</H2>
+                <div class ="cvItem">
+                    <p class = "time">Since April 2020</p>
+                    <h3>Intern & Undergraduate Working Student, Teclead, Berlin, Germany</h3>
+                    <p class = "summary">Mid-sized software and consulting firm focused on E-Commerce, Enterprice CMS, IOT and SaaS related projects.</p>
+                    <ul>
+                        <li>Increased a pet food startup's revenue from  e-mail marketing by planing and implementing a personalisation-focused overhaul of CRM processes</li>
+                        <li>Improved collaboration and transparency across functions by writing user stories, and creating product roadmpas for smaller projects and epics</li>
+                        <li>Backlog refinement and leading of of sprint planning, review and retrospective meetings for smaller projects and epics</li>
+                    </ul>
+                </div>
+                <div class ="cvItem">
+                    <p class = "time">January - July 2019, April – June 2020</p>
+                    <h3>Undergraduate Working Student, Institute for Innovation Management, Ludwig Maximilian University of Munich, Germany</h3>
+                    <p class = "summary">Research and Teaching Institute at one of Germany's top Universities and business schools.</p>
+                    <ul>
+                        <li>Key supportive role in the redisign and translation of the undergraduate class on business planning</li>
+                        <li>Additional support with research and adminstrative tasks</li>
+                    </ul>
+                </div>
+            </section>
+            <section class = "skills">
+                <H2>Skills</H2>
+                <h3>Programming</h3>
+                <p>Python, HTML, CSS</p>
+                <h3>Software</h3>
+                <p>Shopify, Drip, GitHub, Figma, Miro, Notion</p>
+                <h3>Methodologies</h3>
+                <p>Scrum, Agile</p>
+            </section>
         </main>
-        <footer class = "backgroundWrapper">
-            <div class = "container">
-                <div class = "footerLinks">
-                    <img src="./resources/images/linkedInLogo.png" alt="">
-                    <img src="./resources/images/GitHub-Mark-32px.png" alt="">
-                </div>
+        <footer>
+            <div class = "footerLinks">
+                <img src="./resources/images/linkedInLogo.png" alt="">
+                <img src="./resources/images/GitHub-Mark-32px.png" alt="">
             </div>
         </footer>
     </body>
