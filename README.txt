@@ -1,0 +1,2 @@
+Hello there people (and Dylan) of the FUTURE! This is my first website. I'm sure many changes to it will occur over time, and that my commits are likley to not be the most elegant
+I'll probably change this very soon again!
